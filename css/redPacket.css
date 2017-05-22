@@ -1,0 +1,51 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-08 14:44:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-10 09:53:52
+*/
+body{max-width: 640px; margin: 0 auto;}
+.topImg{width:100%; height:29vh;}
+.topImg img{width: 100%; height: auto;}
+.content{ width:100%; height:71vh; overflow: hidden;  background:url("../images/redPacket14.jpg") no-repeat; background-size: 100% 100%;}
+.content .bnt{width:50%; height:auto; margin:0 auto; margin-top:4vh;}
+.content .bnt img{ width:100%;}
+.text{width:70%; height:auto; margin:0 auto;}
+.text h3{width:40%; height:auto; margin:0 auto;}
+.text h3 img{width:100%;}
+.text p{font-size: 0.28rem; line-height:1.8em; color: #043607; margin-top:2vh;}
+.LXmodal{ background: rgba(0, 0, 0,0.4); width: 100%; height: 100%; position: fixed; top:100%; left: 0; z-index: 1000; opacity: 0; transition: all .6s;}
+.LXmodal .modalIn{ width:84%; height:50vh; overflow:hidden; border-radius: 15%; background: #FFF; margin:0 auto; margin-top:26vh; text-align: center;}
+.modalIn p{ font-size:0.28rem; line-height:1.8em; color: #043607; margin-top: 1vh;} 
+.modalIn p span{color:#07690e;}
+.modalIn img{ width:40%;margin:0 auto; margin-top:5vh;}
+.modalIn a{width:62%; height:10vh; display:block; background:url("../images/redPacket11.png") no-repeat; margin:0 auto; background-size:100%; margin-top: 3vh; text-align: center; line-height:7vh; color:#fff; font-size: 0.28rem;}
+.LXmodal .short img{ width:44%; margin-top:8vh;}
+.LXmodal .short p{margin-top:3vh;}
+
+
+
+@media (min-width:384px){
+	.topImg{height:31vh;}
+	.content .bnt{margin-top:6vh;}	
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){
+	/* 兼容iphone4/4s */
+	.topImg{height:34vh;}
+}
+@media (min-width: 640px){
+	/* 兼容ipad */
+	.topImg{height:32vh;}
+	.content{height:89vh;}
+}
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 Plus */
+	.topImg{height:29vh;}
+}
+@media (min-width:800px){
+	.topImg{height:25vh;}	
+	.content{height:95vh;}
+}
+@media (min-width:980px){
+	/* 兼容pc */
+	.topImg{height:36vh;}	
+}
